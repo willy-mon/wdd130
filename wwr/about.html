@@ -12,17 +12,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class="grid-container" >
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-            <img src="images/circlelogo.webp" alt="Raft Logo" width="100">
-            <nav>
-                <a href="index.html">Index</a>
-                <a href="about.html">About</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
-            </nav>                   
+            <img class="logo" src="images/circlelogo.webp" alt="Raft Logo" width="100">
+            <nav class="grid-container" >
+                <a class="nav_boxe4"  href="index.html">Home</a>
+                <a class="nav_boxe3"  href="about.html">About Us</a>
+                <a class="nav_boxe2" href="trips.html">Trips</a>
+                <a class="nav_boxe1" href="contact.html">Contact Us</a>
+            </nav>                               
         </header>
         <main>
             <div class="hero">
@@ -30,36 +30,61 @@
                 <h1>Coconut Rafting</h1>
                 <article>
                     <img src="images/happy_employers.webp" alt="Happy people" width="30">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nihil, dolorum incidunt ipsa fugit enim odio? Amet labore repellat, possimus, sed aperiam aliquid consectetur, repellendus itaque excepturi nostrum inventore ipsum.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis consequatur obcaecati mollitia aspernatur repellat iste in itaque rem veritatis quasi est, ipsam odit facere quia porro accusamus saepe expedita quos. Quibusdam blanditiis incidunt magnam obcaecati accusamus et perspiciatis tempore cupiditate nulla velit, ipsam repellat. Nisi repellendus quis modi facilis deleniti?</p>
                 </article>
             </div>            
-            <section>
-                <h2>History</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis beatae similique suscipit, perferendis nihil, ad natus quam enim, ullam quibusdam maiores? Debitis ducimus dicta minus tempora a reprehenderit nulla quas!</p>
+            <section class="history_box" >
+                <h2 class="history_topic" >History</h2>
+                <p class="text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci rem delectus ipsam iure dolor, distinctio facilis cupiditate, ad amet neque asperiores debitis fugit deserunt libero veritatis totam repudiandae sit mollitia at temporibus numquam expedita tempora enim. Laborum error incidunt reiciendis itaque, consectetur voluptatibus est aut voluptatem expedita. Perspiciatis consequatur magnam excepturi doloribus eaque quasi fugiat tenetur, provident ex dolores! Et magnam, nulla dicta rerum aliquam tempore sapiente natus! Earum culpa architecto minima at error harum adipisci expedita repellat tenetur, nihil dolorum quod et, vel, itaque ut. Est vel possimus reprehenderit? Quia tempore totam in voluptatum. Aliquid alias officiis dolor reprehenderit?</p><p class="text2" >Perspiciatis consequatur magnam excepturi doloribus eaque quasi fugiat tenetur, provident ex dolores! Et magnam, nulla dicta rerum aliquam tempore sapiente natus! Earum culpa architecto minima at error harum adipisci expedita repellat tenetur, nihil dolorum quod et, vel, itaque ut. Est vel possimus reprehenderit? Quia tempore totam in voluptatum. Aliquid alias officiis dolor reprehenderit</p>
+                <img class="history_image" src="images/circlelogo.webp" alt=" Image">
+                
             </section>
-            <section>
-                <h2>Adventure Awaits You!</h2>
-                <img class="img1" src="images/rafting1.webp" alt="rafting people">
-                <img class="img2" src="images/rafting2.webp" alt="rafting people">
-                <img class="img3" src="images/rafting3.webp" alt="rafting people">
-                <img class="img4" src="images/rafting4.webp" alt="rafting people">
-                <img class="img5" src="images/rafting5.webp" alt="rafting people">
+            <section class="adventure_box" >
+                <h2></h2>
+                <figure>
+                    <img class="img" src="images/rafting1.webp" alt="rafting people">
+                    <figcaption> Tornado river</figcaption>
+                </figure>
+
+                <figure>
+                    <img class="img" src="images/rafting2.webp" alt="rafting people">
+                    <figcaption> Flames water</figcaption>
+                </figure> 
+
+                <figure>
+                    <img class="img" src="images/rafting3.webp" alt="rafting people">
+                    <figcaption> Ahe Big fall</figcaption>
+                </figure>
+
+                <figure>
+                    <img class="img" src="images/rafting4.webp" alt="rafting people">
+                    <figcaption> About to beggin</figcaption>
+                </figure>
+
+                <figure>
+                    <img class="img" src="images/rafting5.webp" alt="rafting people">
+                    <figcaption> Volcano river</figcaption>
+                </figure>
+                
             </section>
         </main>
         <footer>
-            <p> 2024, Coconut Rafting, William Moncada</p>
+            <p class="author" > 2024, Coconut Rafting, William Moncada</p>
             <nav class="sociallinks">
                 <a href="https://facebook.com">
-                    <img src="images/Facebook_Icon.webp" alt="Facebook">
+                    <img src="images/Facebook_Icon.webp" alt="Facebook" width="30">
                 </a>
                 <a href="https://twitter.com">
-                    <img src="images/X_icon.webp" alt="X">
+                    <img src="images/X_icon.webp" alt="X" width="30">
                 </a>
                 <a href="https://instagram.com">
-                    <img src="images/instagram_Icon.webp" alt="Instagram">
+                    <img src="images/instagram_Icon.webp" alt="Instagram" width="40">
                 </a>
                 <a href="https://youtube.com">
-                    <img src="images/youtube_Icon.webp" alt="Youtube">
+                    <img src="images/youtube_Icon.webp" alt="Youtube" width="40">
                 </a>
             </nav>
         </footer>
+        </body>
+</html>
+
