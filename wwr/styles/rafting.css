@@ -12,7 +12,7 @@ h1{color: var(--color);font-family: 'lato','Italic';
     top: 8rem;
     max-height: 200px;
     position: absolute;
-    margin:1;
+    margin:1px;
     background-color: rgba(215,240,259);
     color: black;
     flex-wrap: wrap;}
