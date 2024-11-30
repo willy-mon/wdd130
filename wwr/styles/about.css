@@ -1,0 +1,204 @@
+:root{--background-color: rgb(180, 236, 255);--color: rgb(161,80,61)}
+
+
+h1{color: var(--color);font-family: 'lato','Italic';
+    position: absolute;
+    top:4rem;
+    left: 0;
+    right: 0;
+    text-align: center;}
+p {
+    padding: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.sociallinks {
+    float: right;
+    
+}
+
+.author {
+    float: inline-start;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  left: 40rem;
+    z-index: 1;
+    padding: 2px;
+    width: 100px;
+}
+
+body {font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: var(--background-color); 
+    max-width: 800rem;
+    margin: 0 auto; 
+    padding: 10px;}
+
+h2{color: var(--color);
+    font-family: 'lato','italic';
+    text-align: center;}
+
+
+.text1 {
+    padding: 90px;
+}
+
+.text2 {
+    padding: 90px;
+}
+
+
+form {
+    margin: 1;
+    width: 400px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    background-color: rgb(161,80,61);
+    text-align: center;
+  }
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+form li + li {
+    margin-top: 3rem;
+  }
+  
+label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+  }
+  
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+input:focus,
+textarea:focus {
+    border-color: #000;
+  }
+  
+textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+.button {
+    padding-left: 90px;
+  }
+  
+.button {
+    margin-left: 5em;
+  }
+#feedback {
+      background-color: antiquewhite;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: .5em;
+      display: none;      
+  }
+.moveDown {
+      margin-top: 3em;
+  }
+
+main {
+    justify-content: flex-end;
+}
+
+img {
+    position: relative;
+    padding: 3em;
+}
+
+.change_web {
+  float: right;
+}
+.nav_boxe1 { 
+  text-decoration: none;
+  text-align: center;
+  background-color: white;
+  margin: 0.3px;
+  padding: 9.8px;
+  text-align: center;
+  border: 1px solid black;
+  min-width: 80px;
+  max-height: 20px;
+  
+}
+
+.nav_boxe2 {
+  background-color: white;
+  margin: 0.3px;
+  text-decoration: none;
+  padding: 9.8px;
+  text-align: center;
+  border: 1px solid black;
+  min-width: 80px;
+  max-height: 20px;
+}
+
+.nav_boxe3 {
+  background-color: white; 
+  margin: 0.3px; 
+  padding: 9.8px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid black;
+  min-width: 80px;
+  max-height: 20px;
+}
+
+.nav_boxe4 {
+  background-color: white; 
+  margin: 0.3px; 
+  padding: 9.8px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid black;
+  min-width: 80px;
+  max-height: 20px;
+}
+
+figure {
+  display: flex;
+  flex-wrap: wrap ;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(180, 236, 205);
+  padding: 1rem;
+  margin: 1em;
+}
+
+figcaption {
+  padding: 2em;
+  margin: auto 0;
+  justify-content: baseline;
+}
+
+.sketch {
+  padding: 1rem;
+  right: 20rem;
+}

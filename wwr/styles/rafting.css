@@ -1,6 +1,8 @@
 :root{--background-color: rgb(180, 236, 255);--color: rgb(161,80,61)}
 
 
+
+
 h1{color: var(--color);font-family: 'lato','Italic';
     position: absolute;
     top:4rem;
