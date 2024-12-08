@@ -1,0 +1,19 @@
+
+:root{--background-color: rgb(180, 236, 255);--color: rgb(161,80,61)}
+
+.header{
+    color:#094074;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F7EF81;
+}
+.center {
+    text-align: center;
+}
+body{
+    color:#094074;
+    background:var(--background-color);
+}
+footer{
+    background:#F7EF81;
+}
